@@ -11,4 +11,7 @@ class User(Base):
     office = Column(String(150))
 
     def __repr__(self):
+        """
+        Renvoie une représentation de l'objet User.
+        """
         return '<User %r>' % (self.id)
